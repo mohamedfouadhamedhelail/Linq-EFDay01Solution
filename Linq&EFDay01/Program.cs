@@ -1018,7 +1018,14 @@ foreach (var product in result)
         );
       }
 
+//problem11
+//Get the total of the numbers in an array.
 
+int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+var result = Arr.Sum();
+
+Console.WriteLine(result);
 
 
 
